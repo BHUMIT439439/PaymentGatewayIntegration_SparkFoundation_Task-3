@@ -1,0 +1,62 @@
+
+#title
+{
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: 375px;
+}
+#image
+{
+    margin-top: 20px;
+    margin-left: 410px;
+}
+#donatebutton
+{
+    margin-left: 430px;
+}
+.btn {
+    border-radius: 4px;
+    background-color: #ac5439;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  } 
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.fade-out {
+    opacity: 5;
+    animation: fadeOut 0.2s;
+}
+.fade-in {
+    opacity: 2;
+    animation: fadeIn 0.2s;
+}

@@ -1,0 +1,23 @@
+
+{% load static %}
+<html>
+	<head>
+		<title>Success</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+	<body>
+		<div id="box">
+			<div class="text-center mt-5">
+				<img id="succes-icon" src="{% static 'check.png' %}">
+			</div>
+			
+			<h4>Thank you for your Donation !!!</h4>
+			<p>Your support helps me fulfill my dream of teaching aspiring developers around the world! You should receive a receipt to the email you provided shortly :)</p>
+			<hr>
+			<a href="{% url 'base:invoice' %}" class="btn btn-outline-success mt-3 " style="margin-left:700px;">Show Invoice</a>
+			
+		</div>
+	</body>
+</html>
+	
